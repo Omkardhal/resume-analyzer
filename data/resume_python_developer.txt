@@ -1,0 +1,31 @@
+ARJUN MEHTA
+Python Developer
+arjun.mehta@example.com | +91 90000 00001 | Pune, India | github.com/arjun-example
+
+SUMMARY
+Backend-focused Python developer with 2 years of experience building REST APIs, automating workflows and working with relational databases. Comfortable with Agile teams and code reviews.
+
+SKILLS
+Python, Django, Flask, FastAPI, REST API, SQL, PostgreSQL, MySQL, Git, GitHub, Docker, Linux, unit testing, pytest, AWS, Redis, Agile
+
+EXPERIENCE
+Software Developer, BrightLoop Technologies (Jun 2024 - Present)
+- Built and maintained REST APIs using Django and FastAPI serving 50,000+ daily requests.
+- Wrote SQL queries and optimized PostgreSQL tables, cutting report load time by 40%.
+- Containerized services with Docker and deployed them on AWS EC2.
+- Wrote unit tests with pytest and raised test coverage from 45% to 80%.
+- Worked in 2-week Agile sprints and took part in code reviews on GitHub.
+
+Python Intern, CodeNest Labs (Jan 2024 - May 2024)
+- Automated report generation with Python scripts and pandas, saving 6 hours per week.
+- Fixed bugs in a Flask web application and added new API endpoints.
+
+PROJECTS
+Expense Tracker API: A Flask and SQLite API with user authentication and monthly summaries.
+URL Shortener: A FastAPI service with Redis caching and Docker deployment.
+
+EDUCATION
+B.Tech in Computer Science, Example Institute of Technology (2020 - 2024), CGPA 8.2
+
+CERTIFICATIONS
+AWS Cloud Practitioner

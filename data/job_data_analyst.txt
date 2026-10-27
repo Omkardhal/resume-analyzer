@@ -1,0 +1,28 @@
+Data Analyst
+Company: Insightly Analytics (fictional)
+Location: Bengaluru / On-site
+Experience: 2-4 years
+
+About the role
+Insightly is hiring a Data Analyst to turn business data into clear dashboards and recommendations. You will work with product, sales and operations teams.
+
+Responsibilities
+- Write SQL queries to extract and analyze data from large databases.
+- Build interactive dashboards in Power BI or Tableau.
+- Clean, transform and validate data using Excel and Python (pandas).
+- Run A/B tests and statistical analysis to support business decisions.
+- Present insights and data stories to non-technical stakeholders.
+- Maintain documentation of metrics and data definitions.
+
+Required skills
+- Strong SQL (joins, window functions, CTEs)
+- Advanced Excel including pivot tables and lookups
+- Power BI or Tableau
+- Python with pandas and NumPy
+- Statistics fundamentals
+- Data visualization and communication skills
+
+Good to have
+- ETL experience
+- Google Analytics
+- Experience in retail or e-commerce

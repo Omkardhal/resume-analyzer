@@ -1,0 +1,29 @@
+Python Backend Developer
+Company: NimbusSoft Technologies (fictional)
+Location: Pune / Hybrid
+Experience: 1-3 years
+
+About the role
+We are looking for a Python Backend Developer to design, build and maintain APIs and services for our cloud platform. You will work with a small agile team and ship features every sprint.
+
+Responsibilities
+- Develop and maintain REST APIs using Django, Flask or FastAPI.
+- Write clean, tested and well documented Python code.
+- Design and optimize SQL queries and database schemas in PostgreSQL or MySQL.
+- Containerize applications with Docker and deploy them on AWS.
+- Take part in code reviews and agile ceremonies.
+- Troubleshoot production issues and improve performance.
+
+Required skills
+- Strong proficiency in Python
+- Experience with Django, Flask or FastAPI
+- Good knowledge of SQL and relational databases
+- Git and GitHub workflows
+- Unit testing with pytest or unittest
+- Understanding of REST API design
+
+Good to have
+- Docker and Linux
+- AWS or another cloud platform
+- Redis or caching experience
+- CI/CD pipelines

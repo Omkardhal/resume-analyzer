@@ -1,0 +1,28 @@
+RAHUL VERMA
+Frontend / Web Developer
+rahul.verma@example.com | +91 90000 00003 | Delhi, India | github.com/rahul-example
+
+ABOUT ME
+Web developer with 2 years of experience building responsive, fast websites and single-page applications. Enjoys clean UI work and turning designs into working products.
+
+SKILLS
+HTML, CSS, JavaScript, TypeScript, React, Redux, Node.js, Express, MongoDB, Tailwind CSS, Bootstrap, REST API, Git, GitHub, Figma, responsive design, Webpack, npm, Jest
+
+EXPERIENCE
+Frontend Developer, PixelCraft Studio (Mar 2024 - Present)
+- Developed responsive React applications with Redux for state management.
+- Converted Figma designs into pixel-accurate pages using HTML, CSS and Tailwind CSS.
+- Integrated REST APIs built with Node.js and Express.
+- Improved page speed scores from 60 to 92 through code splitting and image optimization.
+- Wrote component tests with Jest.
+
+Web Development Intern, StartHub (Oct 2023 - Feb 2024)
+- Built landing pages with HTML, CSS, JavaScript and Bootstrap.
+- Fixed cross-browser issues and improved mobile layouts.
+
+PROJECTS
+Portfolio Builder: A React and Node.js app where users create portfolio pages, stored in MongoDB.
+Weather Dashboard: A JavaScript app that uses a public weather API with responsive design.
+
+EDUCATION
+B.Tech in Information Technology, Example College of Engineering (2019 - 2023)

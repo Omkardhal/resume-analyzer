@@ -1,0 +1,32 @@
+PRIYA SHARMA
+Data Analyst
+priya.sharma@example.com | +91 90000 00002 | Bengaluru, India | linkedin.com/in/priya-example
+
+PROFILE
+Detail-oriented data analyst with 3 years of experience turning raw data into dashboards and business insights. Strong in SQL, Excel and visualization tools, with working knowledge of Python for analysis.
+
+TECHNICAL SKILLS
+SQL, MySQL, Advanced Excel, pivot tables, Power BI, Tableau, Python, pandas, NumPy, matplotlib, data cleaning, data visualization, statistics, A/B testing, Google Sheets, ETL, storytelling with data
+
+WORK EXPERIENCE
+Data Analyst, Northwind Retail Analytics (Aug 2023 - Present)
+- Built 12 Power BI dashboards tracking sales, inventory and customer retention for senior management.
+- Wrote complex SQL queries with joins, window functions and CTEs on MySQL databases.
+- Cleaned and merged datasets from 5 sources using Python and pandas.
+- Ran A/B tests on pricing offers and presented results that increased conversions by 8%.
+
+Junior Analyst, Metrix Consulting (Jul 2022 - Jul 2023)
+- Prepared weekly Excel reports with pivot tables, VLOOKUP and charts.
+- Created Tableau visualizations for client presentations.
+- Documented data definitions and improved data quality checks.
+
+PROJECTS
+Customer Churn Analysis: Used Python, pandas and matplotlib to find the top 3 churn drivers for a telecom dataset.
+Sales Dashboard: A Tableau dashboard with regional and monthly drill-downs.
+
+EDUCATION
+B.Sc. in Statistics, Example University (2019 - 2022)
+
+CERTIFICATIONS
+Google Data Analytics Certificate
+Microsoft Power BI Data Analyst Associate

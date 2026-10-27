@@ -1,0 +1,27 @@
+Software Engineer Trainee
+Company: Orchid Systems (fictional)
+Location: Hyderabad / On-site
+Experience: Freshers (0-1 years)
+
+About the role
+Orchid Systems runs a six-month training program for fresh graduates who will join our product engineering teams. You will learn on real projects with mentor support.
+
+Responsibilities
+- Write and debug code in C++, Java or Python under guidance.
+- Learn data structures and algorithms and apply them in everyday tasks.
+- Work with SQL databases for storing and retrieving application data.
+- Use Git for version control and take part in code reviews.
+- Contribute to testing and documentation.
+
+Required skills
+- Programming fundamentals in C, C++, Java or Python
+- Object-oriented programming concepts
+- Data structures and algorithms
+- Basic SQL and database concepts
+- Good communication and willingness to learn
+
+Good to have
+- Git and GitHub
+- Basic knowledge of HTML and CSS
+- Academic or personal projects
+- Hackathon or coding club participation

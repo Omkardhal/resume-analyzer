@@ -1,0 +1,29 @@
+Frontend Developer (React)
+Company: BlueOrbit Digital (fictional)
+Location: Remote (India)
+Experience: 1-3 years
+
+About the role
+We build web products for startups and need a Frontend Developer who cares about performance and user experience. You will work closely with designers and backend engineers.
+
+Responsibilities
+- Build responsive user interfaces with React and TypeScript.
+- Convert Figma designs into reusable components using HTML, CSS and Tailwind CSS.
+- Manage application state with Redux or similar libraries.
+- Integrate REST APIs and handle loading and error states.
+- Optimize page speed and fix cross-browser issues.
+- Write component tests with Jest and React Testing Library.
+
+Required skills
+- Strong JavaScript (ES6+), HTML5 and CSS3
+- React and Redux
+- Git and GitHub
+- Responsive design
+- Experience consuming REST APIs
+
+Good to have
+- TypeScript
+- Node.js and Express
+- Next.js
+- Figma
+- Webpack or Vite

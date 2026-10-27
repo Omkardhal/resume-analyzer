@@ -1,0 +1,28 @@
+SAMEER KHAN
+sameer.khan@example.com   9000000005
+
+objective:- to get a job in IT company where i can learn and grow my skills
+
+education
+B.Tech CSE 3rd year    Example University    cgpa 7.4
+12th - 82%     10th - 85%
+
+skills
+c   c++   java basics   html   css   python (basic)   ms office
+
+projects
+1) library management system in c++ ( file handling, classes )
+2) simple calculator using python
+3) college website static page using html and css
+
+internship
+none
+
+achievements
+- participated in college hackathon
+- member of coding club
+
+hobbies
+cricket, music, travelling
+
+declaration: i hereby declare that all the information given above is true
