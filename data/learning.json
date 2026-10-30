@@ -1,0 +1,630 @@
+{
+  "Python": {
+    "category": "Languages",
+    "tip": "Learn variables, functions, lists and dictionaries, then build a small script that reads a file."
+  },
+  "Java": {
+    "category": "Languages",
+    "tip": "Learn classes, objects and collections, then build a small console app such as a library system."
+  },
+  "JavaScript": {
+    "category": "Languages",
+    "tip": "Learn variables, functions and the DOM, then make a small interactive web page."
+  },
+  "TypeScript": {
+    "category": "Languages",
+    "tip": "Learn how types work in JavaScript, then convert a small JavaScript project to TypeScript."
+  },
+  "C": {
+    "category": "Languages",
+    "tip": "Practise pointers, arrays and memory handling by writing small programs."
+  },
+  "C++": {
+    "category": "Languages",
+    "tip": "Learn classes, the STL containers and file handling, then build a small project like a billing system."
+  },
+  "C#": {
+    "category": "Languages",
+    "tip": "Learn classes and LINQ, then build a small console or desktop app."
+  },
+  "Embedded C": {
+    "category": "Languages",
+    "tip": "Practise bit operations, pointers and reading and writing hardware registers on a small microcontroller board."
+  },
+  "Bash": {
+    "category": "Languages",
+    "tip": "Learn basic commands, pipes and loops, then automate a small task such as renaming files."
+  },
+  "Kotlin": {
+    "category": "Languages",
+    "tip": "Learn the basics of the language, then build a small Android app."
+  },
+  "HTML": {
+    "category": "Web development",
+    "tip": "Build a simple page with headings, lists, links, forms and images."
+  },
+  "CSS": {
+    "category": "Web development",
+    "tip": "Practise layouts with Flexbox and Grid, and make a page that works on phones."
+  },
+  "React": {
+    "category": "Web development",
+    "tip": "Learn components, props and state, then build a small to-do or weather app."
+  },
+  "Redux": {
+    "category": "Web development",
+    "tip": "Learn why shared state is needed in React apps, then add Redux to a small project."
+  },
+  "Node.js": {
+    "category": "Web development",
+    "tip": "Learn how to run JavaScript on a server and build a small API with it."
+  },
+  "Express": {
+    "category": "Web development",
+    "tip": "Build a small REST API with routes to create, read, update and delete items."
+  },
+  "Next.js": {
+    "category": "Web development",
+    "tip": "Learn routing and server-side rendering by building a small multi-page site."
+  },
+  "Angular": {
+    "category": "Web development",
+    "tip": "Learn components and services, then build a small data-driven page."
+  },
+  "Vue.js": {
+    "category": "Web development",
+    "tip": "Learn components and reactive data, then build a small interactive page."
+  },
+  "Tailwind CSS": {
+    "category": "Web development",
+    "tip": "Style a page using utility classes instead of writing custom CSS."
+  },
+  "Bootstrap": {
+    "category": "Web development",
+    "tip": "Build a responsive page using the grid system and ready-made components."
+  },
+  "Webpack": {
+    "category": "Web development",
+    "tip": "Learn how bundling works by setting up a small project that bundles JavaScript and CSS."
+  },
+  "Vite": {
+    "category": "Web development",
+    "tip": "Create a small project with Vite and see how quick development builds are."
+  },
+  "Django": {
+    "category": "Backend and APIs",
+    "tip": "Follow the official tutorial to build a small site with models, views and an admin page."
+  },
+  "Flask": {
+    "category": "Backend and APIs",
+    "tip": "Build a small web app with a few routes and a database."
+  },
+  "FastAPI": {
+    "category": "Backend and APIs",
+    "tip": "Build a small API and explore the automatic documentation page it creates."
+  },
+  "Spring Boot": {
+    "category": "Backend and APIs",
+    "tip": "Build a small REST API with Spring Boot connected to a database."
+  },
+  "Spring MVC": {
+    "category": "Backend and APIs",
+    "tip": "Learn controllers, views and request handling by building a small web app."
+  },
+  "Spring Security": {
+    "category": "Backend and APIs",
+    "tip": "Add login and role-based access to a small Spring Boot app."
+  },
+  "Hibernate": {
+    "category": "Backend and APIs",
+    "tip": "Learn how Java objects map to database tables by building a small project."
+  },
+  "JPA": {
+    "category": "Backend and APIs",
+    "tip": "Learn entities and repositories by storing and querying data in a small Spring Boot app."
+  },
+  "REST API": {
+    "category": "Backend and APIs",
+    "tip": "Learn HTTP methods and status codes, then build and test an API with Postman."
+  },
+  "Microservices": {
+    "category": "Backend and APIs",
+    "tip": "Learn how an app can be split into small services that talk to each other, and build two small ones."
+  },
+  "JWT": {
+    "category": "Backend and APIs",
+    "tip": "Learn how token-based login works and add it to a small API."
+  },
+  "Kafka": {
+    "category": "Backend and APIs",
+    "tip": "Learn topics, producers and consumers by sending messages between two small programs."
+  },
+  "Swagger": {
+    "category": "Backend and APIs",
+    "tip": "Add Swagger or OpenAPI documentation to a small API."
+  },
+  "SQL": {
+    "category": "Databases",
+    "tip": "Practise SELECT, JOIN, GROUP BY and subqueries on a sample database."
+  },
+  "MySQL": {
+    "category": "Databases",
+    "tip": "Install MySQL, create tables and practise queries and joins."
+  },
+  "PostgreSQL": {
+    "category": "Databases",
+    "tip": "Install PostgreSQL and practise queries, joins and indexes on a sample database."
+  },
+  "MongoDB": {
+    "category": "Databases",
+    "tip": "Learn documents and collections, then store and query data from a small app."
+  },
+  "SQLite": {
+    "category": "Databases",
+    "tip": "Use SQLite from Python to store data for a small project without installing a server."
+  },
+  "Redis": {
+    "category": "Databases",
+    "tip": "Learn how to cache values with Redis and set expiry times."
+  },
+  "Pandas": {
+    "category": "Data and ML",
+    "tip": "Practise loading a CSV file, cleaning it and summarising it with groupby."
+  },
+  "NumPy": {
+    "category": "Data and ML",
+    "tip": "Learn arrays and vectorised operations, then redo a loop-based task with NumPy."
+  },
+  "Matplotlib": {
+    "category": "Data and ML",
+    "tip": "Make line, bar and scatter charts from a small dataset."
+  },
+  "Scikit-learn": {
+    "category": "Data and ML",
+    "tip": "Train a simple classifier and measure its accuracy on a standard dataset."
+  },
+  "TensorFlow": {
+    "category": "Data and ML",
+    "tip": "Build and train a small neural network on a standard image dataset."
+  },
+  "Keras": {
+    "category": "Data and ML",
+    "tip": "Build a small neural network with Keras layers and train it on a simple dataset."
+  },
+  "PyTorch": {
+    "category": "Data and ML",
+    "tip": "Learn tensors and training loops, then train a small neural network."
+  },
+  "OpenCV": {
+    "category": "Data and ML",
+    "tip": "Learn to read images, convert them and detect faces or edges."
+  },
+  "NLP": {
+    "category": "Data and ML",
+    "tip": "Learn text cleaning and TF-IDF, then build a simple text classifier."
+  },
+  "Machine Learning": {
+    "category": "Data and ML",
+    "tip": "Learn the basics of supervised learning, then finish a small prediction project."
+  },
+  "Deep Learning": {
+    "category": "Data and ML",
+    "tip": "Learn how neural networks are trained, then build a small image classifier."
+  },
+  "Computer Vision": {
+    "category": "Data and ML",
+    "tip": "Build a small project that detects or classifies objects in images."
+  },
+  "Hugging Face": {
+    "category": "Data and ML",
+    "tip": "Use a pretrained model from the Hugging Face hub for a simple text task."
+  },
+  "Statistics": {
+    "category": "Data and ML",
+    "tip": "Revise mean, variance, distributions, hypothesis testing and correlation."
+  },
+  "Feature Engineering": {
+    "category": "Data and ML",
+    "tip": "Practise creating and choosing useful input columns for a prediction model."
+  },
+  "Data Cleaning": {
+    "category": "Data and ML",
+    "tip": "Practise handling missing values, duplicates and wrong formats in a messy dataset."
+  },
+  "Data Visualization": {
+    "category": "Data and ML",
+    "tip": "Turn a dataset into clear charts and explain what each one shows."
+  },
+  "ETL": {
+    "category": "Data and ML",
+    "tip": "Build a small pipeline that reads data, cleans it and loads it into a database."
+  },
+  "A/B Testing": {
+    "category": "Data and ML",
+    "tip": "Learn how to compare two versions of something using a significance test."
+  },
+  "Power BI": {
+    "category": "Data and ML",
+    "tip": "Build a dashboard from a sample dataset with slicers and a few charts."
+  },
+  "Tableau": {
+    "category": "Data and ML",
+    "tip": "Build an interactive dashboard from a sample dataset."
+  },
+  "Excel": {
+    "category": "Data and ML",
+    "tip": "Practise pivot tables, lookups and charts on a sample sheet."
+  },
+  "Google Sheets": {
+    "category": "Data and ML",
+    "tip": "Practise formulas, pivot tables and charts in Google Sheets."
+  },
+  "MLflow": {
+    "category": "Data and ML",
+    "tip": "Track the settings and results of a few training runs with MLflow."
+  },
+  "Jupyter": {
+    "category": "Data and ML",
+    "tip": "Do a small data analysis in a Jupyter notebook with notes and charts."
+  },
+  "AWS": {
+    "category": "Cloud and DevOps",
+    "tip": "Create a free account and practise launching a server (EC2) and storing files (S3)."
+  },
+  "Azure": {
+    "category": "Cloud and DevOps",
+    "tip": "Create a free account and deploy a small web app on Azure."
+  },
+  "GCP": {
+    "category": "Cloud and DevOps",
+    "tip": "Create a free account and deploy a small app on Google Cloud."
+  },
+  "Docker": {
+    "category": "Cloud and DevOps",
+    "tip": "Package a small app into a container image and run it."
+  },
+  "Kubernetes": {
+    "category": "Cloud and DevOps",
+    "tip": "Run a small app on a local cluster such as minikube and learn pods and services."
+  },
+  "Helm": {
+    "category": "Cloud and DevOps",
+    "tip": "Install an app on Kubernetes using a Helm chart, then write a simple chart of your own."
+  },
+  "Terraform": {
+    "category": "Cloud and DevOps",
+    "tip": "Write a Terraform file that creates a cloud resource, then destroy it."
+  },
+  "Ansible": {
+    "category": "Cloud and DevOps",
+    "tip": "Write a playbook that installs and configures software on a test machine."
+  },
+  "Infrastructure as Code": {
+    "category": "Cloud and DevOps",
+    "tip": "Learn to define servers and networks in code, using a tool such as Terraform."
+  },
+  "Jenkins": {
+    "category": "Cloud and DevOps",
+    "tip": "Set up a Jenkins pipeline that builds and tests a small project."
+  },
+  "GitHub Actions": {
+    "category": "Cloud and DevOps",
+    "tip": "Add a workflow that runs tests on every push to a small repository."
+  },
+  "GitLab CI": {
+    "category": "Cloud and DevOps",
+    "tip": "Add a pipeline file that builds and tests a small project on GitLab."
+  },
+  "CI/CD": {
+    "category": "Cloud and DevOps",
+    "tip": "Learn how code is built, tested and deployed automatically, and set up a simple pipeline."
+  },
+  "Linux": {
+    "category": "Cloud and DevOps",
+    "tip": "Practise common commands, file permissions and managing processes in a terminal."
+  },
+  "Nginx": {
+    "category": "Cloud and DevOps",
+    "tip": "Install Nginx and use it to serve a site and forward requests to an app."
+  },
+  "Prometheus": {
+    "category": "Cloud and DevOps",
+    "tip": "Collect metrics from a small app and view them in Prometheus."
+  },
+  "Grafana": {
+    "category": "Cloud and DevOps",
+    "tip": "Build a dashboard from Prometheus metrics."
+  },
+  "ELK": {
+    "category": "Cloud and DevOps",
+    "tip": "Send logs from a small app into Elasticsearch and view them in Kibana."
+  },
+  "Git": {
+    "category": "Cloud and DevOps",
+    "tip": "Practise commits, branches, merges and resolving conflicts."
+  },
+  "GitHub": {
+    "category": "Cloud and DevOps",
+    "tip": "Practise pull requests, issues and reviewing changes on a small repository."
+  },
+  "Maven": {
+    "category": "Cloud and DevOps",
+    "tip": "Learn how to build a Java project and manage its dependencies with Maven."
+  },
+  "JUnit": {
+    "category": "Testing",
+    "tip": "Write unit tests for a small Java class using JUnit."
+  },
+  "Mockito": {
+    "category": "Testing",
+    "tip": "Learn to replace dependencies with mocks when testing a Java class."
+  },
+  "Pytest": {
+    "category": "Testing",
+    "tip": "Write tests for a small Python module with pytest."
+  },
+  "Jest": {
+    "category": "Testing",
+    "tip": "Write tests for a small JavaScript function or React component with Jest."
+  },
+  "Unit Testing": {
+    "category": "Testing",
+    "tip": "Learn to write small automated tests for single functions and run them regularly."
+  },
+  "Selenium": {
+    "category": "Testing",
+    "tip": "Automate a login flow in a browser with a Selenium script."
+  },
+  "Postman": {
+    "category": "Testing",
+    "tip": "Send requests to an API and write a few checks in Postman."
+  },
+  "ARM Cortex-M": {
+    "category": "Embedded systems",
+    "tip": "Learn the architecture basics and write a small program for a Cortex-M board."
+  },
+  "STM32": {
+    "category": "Embedded systems",
+    "tip": "Get an STM32 board, blink an LED, then read a sensor."
+  },
+  "ESP32": {
+    "category": "Embedded systems",
+    "tip": "Get an ESP32 board and send sensor data over Wi-Fi."
+  },
+  "FreeRTOS": {
+    "category": "Embedded systems",
+    "tip": "Create two tasks that share data through a queue on a development board."
+  },
+  "RTOS": {
+    "category": "Embedded systems",
+    "tip": "Learn tasks, scheduling, queues and semaphores, and how they differ from a simple main loop."
+  },
+  "UART": {
+    "category": "Embedded systems",
+    "tip": "Send and receive text between a board and your computer over a serial connection."
+  },
+  "SPI": {
+    "category": "Embedded systems",
+    "tip": "Read data from an SPI sensor or memory chip with a development board."
+  },
+  "I2C": {
+    "category": "Embedded systems",
+    "tip": "Read data from an I2C sensor with a development board."
+  },
+  "CAN Bus": {
+    "category": "Embedded systems",
+    "tip": "Learn how CAN frames work and send messages between two boards or in a simulator."
+  },
+  "MQTT": {
+    "category": "Embedded systems",
+    "tip": "Publish sensor readings to an MQTT broker and subscribe from another program."
+  },
+  "GDB": {
+    "category": "Embedded systems",
+    "tip": "Learn to set breakpoints, step through code and inspect variables with GDB."
+  },
+  "JTAG": {
+    "category": "Embedded systems",
+    "tip": "Learn how a debug probe connects to a board and use it to flash and debug code."
+  },
+  "Oscilloscope": {
+    "category": "Embedded systems",
+    "tip": "Learn to measure signals such as clock and data lines with an oscilloscope."
+  },
+  "Logic Analyzer": {
+    "category": "Embedded systems",
+    "tip": "Capture and decode a serial signal such as UART or I2C."
+  },
+  "MISRA C": {
+    "category": "Embedded systems",
+    "tip": "Read the main MISRA C rules and run a static analysis tool on your own code."
+  },
+  "Embedded Linux": {
+    "category": "Embedded systems",
+    "tip": "Run Linux on a board such as a Raspberry Pi and learn to build and run programs on it."
+  },
+  "Device Drivers": {
+    "category": "Embedded systems",
+    "tip": "Write a simple Linux kernel module or a basic peripheral driver."
+  },
+  "CMake": {
+    "category": "Embedded systems",
+    "tip": "Set up a small C++ project with a CMakeLists file and build it."
+  },
+  "Makefile": {
+    "category": "Embedded systems",
+    "tip": "Write a Makefile that compiles a small C program."
+  },
+  "Figma": {
+    "category": "Design (UI/UX)",
+    "tip": "Recreate a screen of a real app in Figma using frames and components."
+  },
+  "Adobe XD": {
+    "category": "Design (UI/UX)",
+    "tip": "Adobe has stopped adding new features to XD, so practise the same prototyping skills in Figma first."
+  },
+  "Sketch": {
+    "category": "Design (UI/UX)",
+    "tip": "Design a screen using symbols and shared styles in Sketch."
+  },
+  "Photoshop": {
+    "category": "Design (UI/UX)",
+    "tip": "Practise editing images and layers, and exporting assets for the web."
+  },
+  "Illustrator": {
+    "category": "Design (UI/UX)",
+    "tip": "Practise drawing icons and logos with vector shapes."
+  },
+  "Miro": {
+    "category": "Design (UI/UX)",
+    "tip": "Use Miro to make a user flow or a brainstorming board."
+  },
+  "Wireframing": {
+    "category": "Design (UI/UX)",
+    "tip": "Sketch low-detail layouts for an app before choosing colours and fonts."
+  },
+  "Prototyping": {
+    "category": "Design (UI/UX)",
+    "tip": "Turn a few screens into a clickable prototype and test it with friends."
+  },
+  "User Research": {
+    "category": "Design (UI/UX)",
+    "tip": "Interview a few users about a problem and summarise what you learned."
+  },
+  "Usability Testing": {
+    "category": "Design (UI/UX)",
+    "tip": "Watch someone use your prototype and note where they get stuck."
+  },
+  "User Flows": {
+    "category": "Design (UI/UX)",
+    "tip": "Draw the steps a user takes to complete one task in an app."
+  },
+  "Personas": {
+    "category": "Design (UI/UX)",
+    "tip": "Create a persona from your research, with goals and frustrations."
+  },
+  "Information Architecture": {
+    "category": "Design (UI/UX)",
+    "tip": "Organise an app's content into clear sections and menus, and test it with card sorting."
+  },
+  "Interaction Design": {
+    "category": "Design (UI/UX)",
+    "tip": "Learn how buttons, animations and feedback guide users through a screen."
+  },
+  "Responsive Design": {
+    "category": "Design (UI/UX)",
+    "tip": "Design a page for phone, tablet and desktop widths."
+  },
+  "Design Systems": {
+    "category": "Design (UI/UX)",
+    "tip": "Build a small set of reusable colours, text styles and components."
+  },
+  "UI/UX": {
+    "category": "Design (UI/UX)",
+    "tip": "Learn the difference between how a product looks and how it works, then redesign one app screen."
+  },
+  "Accessibility": {
+    "category": "Design (UI/UX)",
+    "tip": "Learn the basics of WCAG, such as colour contrast and keyboard use, and check one of your designs."
+  },
+  "Design Thinking": {
+    "category": "Design (UI/UX)",
+    "tip": "Learn the five stages (empathise, define, ideate, prototype, test) and apply them to a small problem."
+  },
+  "SEO": {
+    "category": "Marketing",
+    "tip": "Learn keyword research and on-page basics, then optimise a small blog or site."
+  },
+  "SEM": {
+    "category": "Marketing",
+    "tip": "Learn how paid search works and run a small campaign with a tiny budget."
+  },
+  "Google Ads": {
+    "category": "Marketing",
+    "tip": "Practise building a search campaign with ad groups and keywords."
+  },
+  "Facebook Ads": {
+    "category": "Marketing",
+    "tip": "Practise setting up a small ad campaign with audience targeting."
+  },
+  "Content Marketing": {
+    "category": "Marketing",
+    "tip": "Plan a month of content for one audience and write a few posts."
+  },
+  "Social Media Marketing": {
+    "category": "Marketing",
+    "tip": "Plan and schedule posts for a small account and track which ones perform best."
+  },
+  "Email Marketing": {
+    "category": "Marketing",
+    "tip": "Write a short email campaign and learn about open and click rates."
+  },
+  "Mailchimp": {
+    "category": "Marketing",
+    "tip": "Build an email list and send a test campaign in Mailchimp."
+  },
+  "Copywriting": {
+    "category": "Marketing",
+    "tip": "Practise writing headlines and short ads, and compare which version works better."
+  },
+  "Keyword Research": {
+    "category": "Marketing",
+    "tip": "Find what people search for in a topic using a free keyword tool."
+  },
+  "Canva": {
+    "category": "Marketing",
+    "tip": "Design a few social media posts with Canva templates."
+  },
+  "WordPress": {
+    "category": "Marketing",
+    "tip": "Set up a small WordPress site with a theme and a few pages."
+  },
+  "HubSpot": {
+    "category": "Marketing",
+    "tip": "Take HubSpot's free marketing courses and try its free CRM."
+  },
+  "Google Analytics": {
+    "category": "Marketing",
+    "tip": "Add Google Analytics to a small site and learn to read the basic reports."
+  },
+  "Agile": {
+    "category": "Practices",
+    "tip": "Learn sprints, stand-ups and user stories, and use a simple board to plan a small project."
+  },
+  "Scrum": {
+    "category": "Practices",
+    "tip": "Learn the Scrum roles, events and artifacts, and run a small sprint with friends."
+  },
+  "OOP": {
+    "category": "Practices",
+    "tip": "Learn classes, inheritance and polymorphism, and build a small project with them."
+  },
+  "Data Structures": {
+    "category": "Practices",
+    "tip": "Practise arrays, linked lists, stacks, queues, trees and hash maps."
+  },
+  "Algorithms": {
+    "category": "Practices",
+    "tip": "Practise sorting, searching and recursion, and solve problems on a coding site."
+  },
+  "Communication Skills": {
+    "category": "Practices",
+    "tip": "Practise explaining your projects clearly in two minutes, out loud."
+  },
+  "Problem Solving": {
+    "category": "Practices",
+    "tip": "Practise breaking problems into steps and solving a few coding problems each week."
+  },
+  "File Handling": {
+    "category": "Practices",
+    "tip": "Practise reading and writing text and CSV files in your main language."
+  },
+  "Code Review": {
+    "category": "Practices",
+    "tip": "Practise giving and receiving feedback on pull requests."
+  },
+  "Debugging": {
+    "category": "Practices",
+    "tip": "Practise using a debugger with breakpoints, and reading error messages and logs."
+  }
+}

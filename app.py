@@ -1,9 +1,11 @@
 import os
 import tempfile
 
+import pandas as pd
 import streamlit as st
 
 from src.extract import extract_text
+from src.learn import load_learning, category_of, learning_tip, coverage_by_category
 from src.score import analyze, SKILL_WEIGHT, TEXT_WEIGHT
 
 st.set_page_config(page_title="Resume Analyzer", page_icon="📄", layout="wide")
@@ -54,6 +56,7 @@ if st.button("Analyze", type="primary"):
         st.stop()
 
     result = analyze(resume_text, job_text)
+    learning = load_learning()
 
     st.divider()
     st.header("Results")
@@ -86,6 +89,14 @@ if st.button("Analyze", type="primary"):
             "so the score is based on text similarity only."
         )
 
+    # Chart: for each area the job asks about, how many skills are matched and how many are missing
+    coverage = coverage_by_category(result["matched"], result["missing"], learning)
+    if coverage:
+        st.subheader("Skills by area")
+        st.caption("Each bar shows the skills the job asks for in that area.")
+        chart_data = pd.DataFrame(coverage).T[["Matched", "Missing"]]
+        st.bar_chart(chart_data, color=["#2f6fdb", "#e8833a"], horizontal=True, stack=True)
+
     matched_col, missing_col = st.columns(2)
     with matched_col:
         st.subheader(f"Matched skills ({len(result['matched'])})")
@@ -96,3 +107,11 @@ if st.button("Analyze", type="primary"):
             ", ".join(result["missing"])
             or "None. Your resume covers every skill we found in the job description."
         )
+
+    # What to learn next: one tip per missing skill, grouped by area
+    if result["missing"]:
+        st.subheader("What to learn next")
+        st.caption("A starting point for each missing skill. Only add a skill to your resume once you have really used it.")
+        for skill in sorted(result["missing"], key=lambda s: (category_of(s, learning), s.lower())):
+            tip, link = learning_tip(skill, learning)
+            st.markdown(f"- **{skill}** ({category_of(skill, learning)}): {tip} [Search tutorials]({link})")
