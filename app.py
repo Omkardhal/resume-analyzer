@@ -10,6 +10,10 @@ from src.score import analyze, SKILL_WEIGHT, TEXT_WEIGHT
 
 st.set_page_config(page_title="Resume Analyzer", page_icon="📄", layout="wide")
 
+# Below these sizes the text is too short for a reliable comparison
+MIN_RESUME_WORDS = 30
+MIN_JOB_WORDS = 15
+
 st.title("Resume Analyzer")
 st.write(
     "Upload your resume, paste a job description, and see how well they match "
@@ -50,10 +54,15 @@ if st.button("Analyze", type="primary"):
 
     if not resume_text.strip():
         st.error(
-            "No text found in this resume. It may be a scanned image. "
-            "Please upload a text-based PDF instead."
+            "No text found in this resume. If it is a PDF, it may be a scanned image, "
+            "so please upload a text-based PDF instead."
         )
         st.stop()
+
+    if len(resume_text.split()) < MIN_RESUME_WORDS:
+        st.warning("Very little text was found in this resume, so the results may not be reliable.")
+    if len(job_text.split()) < MIN_JOB_WORDS:
+        st.warning("The job description is very short, so the results may not be reliable.")
 
     result = analyze(resume_text, job_text)
     learning = load_learning()

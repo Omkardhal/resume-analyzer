@@ -6,6 +6,15 @@ from src.extract import clean_text
 
 SKILLS_FILE = Path(__file__).resolve().parent.parent / "data" / "skills.json"
 
+# A few skills are also everyday English words. For these we skip matches that are clearly
+# plain English, such as "to excel", "excel at teamwork" or "express my interest".
+# Each entry is (what must NOT come right before, what must NOT come right after).
+ENGLISH_USE = {
+    "Excel": (r"(?<!\bto )", r"(?!\s+(?:at|in|as)\b)"),
+    "Express": (r"(?<!\bto )", r"(?!\s+(?:my|your|our|interest|myself|yourself|concerns?|ideas?|gratitude)\b)"),
+    "Sketch": (r"(?<!\bto )", r"(?!\s+(?:wireframes?|ideas?|out|on|paper)\b)"),
+}
+
 
 def load_skills(path=SKILLS_FILE):
     """Read skills.json and build one search pattern per skill.
@@ -21,10 +30,13 @@ def load_skills(path=SKILLS_FILE):
         variants = {clean_text(skill)} | {clean_text(a) for a in aliases}
         # longest first, so "spring boot" is tried before anything shorter
         options = "|".join(re.escape(v) for v in sorted(variants, key=len, reverse=True))
+        not_before, not_after = ENGLISH_USE.get(skill, ("", ""))
         patterns[skill] = re.compile(
             r"(?<![a-z0-9+#.])"            # not in the middle of a bigger word, e.g. "my" + "sql"
-            r"(?:" + options + r")"
-            r"(?![a-z0-9+#]|\.[a-z0-9])"   # not followed by more letters, "+" or "#", or ".js"
+            + not_before
+            + r"(?:" + options + r")"
+            + r"(?![a-z0-9+#]|\.[a-z0-9])"  # not followed by more letters, "+" or "#", or ".js"
+            + not_after
         )
     return patterns
 
